@@ -1,0 +1,19 @@
+{
+  "name": "mongoose-schema-formatdate",
+  "version": "0.0.1",
+  "description": "mongoose formatdate schema",
+  "main": "formatdate.js",
+  "dependencies": {
+    "mongoose": "~2.7.1",
+    "moment": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lowol/mongoose-schema-formatdate.git"
+  },
+  "keywords": [
+    "mongoose"
+  ],
+  "author": "lowol",
+  "license": "MIT"
+}
