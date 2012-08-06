@@ -7,6 +7,9 @@
     "mongoose": "~2.7.1",
     "moment": "*"
   },
+  "devDependencies": {
+    "mocha": "*"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/lowol/mongoose-schema-formatdate.git"
