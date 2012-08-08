@@ -1,5 +1,5 @@
 var mongoose = require('mongoose'),
-    SchemaTypes = mongoose.SchemaTypes,
+    SchemaTypes = mongoose.SchemaTypes || mongoose.Schema.Types,
     CastError = mongoose.SchemaType.CastError;
 
 var moment = require('moment');
