@@ -3,7 +3,7 @@
  */
 var assert = require('assert'),
     mongoose = require('mongoose'),
-    FormatDate = require('../formatdate');
+    FormatDate = mongoose.Schema.Types.FormatDate = require('../formatdate');
 
 var conn = mongoose.createConnection('mongodb://localhost/formatdate-test');
 

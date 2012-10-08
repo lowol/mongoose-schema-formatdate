@@ -1,5 +1,5 @@
 var mongoose = require('mongoose'),
-    FormatDate = require('../formatdate');
+    FormatDate = mongoose.Schema.Types.FormatDate = require('../formatdate');
 
 /**
  * example
