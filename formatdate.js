@@ -4,6 +4,7 @@ var mongoose = require('mongoose'),
 
 var moment = require('moment');
 
+
 /**
  * FormatDate
  */
@@ -25,7 +26,7 @@ FormatDate.prototype.cast = function(value) {
   }
 
   if (value instanceof Number ||
-      'number' == typeof value || 
+      'number' == typeof value ||
       String(value) == Number(value)) {
     // support for timestamps
     return new Date(Number(value));
