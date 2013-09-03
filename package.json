@@ -1,6 +1,6 @@
 {
   "name": "mongoose-schema-formatdate",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "mongoose formatdate schema",
   "main": "formatdate.js",
   "dependencies": {

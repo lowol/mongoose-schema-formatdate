@@ -47,11 +47,9 @@ describe('formatdate', function() {
     new Comment2({
       date: '2012-01-01 01:23:45'
     }).save(function(err, doc) {
-      console.log(err, doc);
       assert.equal(doc.date, new Date(2012, 0, 1, 1, 23, 45).toString());
       done(err);
     });
-    done();
   });
 
 });
